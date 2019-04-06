@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-toolbar class="cyan lighten-3">
-      <v-toolbar-title>Just Give Me The Weather</v-toolbar-title>
+      <v-toolbar-title>Just The Weather</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
         <v-text-field label="US ZIP Code" v-model="zip" v-on:keyup="keyHandler()"></v-text-field>
